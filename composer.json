@@ -1,0 +1,22 @@
+{
+    "name": "alanz-evo/orbital-cache",
+    "type": "metapackage",
+    "require": {
+        "laravel/framework": "^7.0|8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlanzEvo\\OrbitalCache\\": "src/",
+            "AlanzEvo\\OrbitalCache\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "authors": [
+        {
+            "name": "Alan.Z",
+            "email": "alan.z@evolutivelabs.com"
+        }
+    ]
+}
